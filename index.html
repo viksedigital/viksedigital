@@ -115,6 +115,116 @@
             text-align: center;
             color: #888888;
         }
+
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    padding: 90px 8%;
+    background: #101010;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-heading h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.portfolio-heading h2 span {
+    color: #c58b55;
+}
+
+.portfolio-heading p {
+    color: #999;
+    font-size: 16px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px;
+}
+
+.project-card {
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #c58b55;
+}
+
+.project-image {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-image h3 {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.project-image.brand {
+    background: linear-gradient(135deg, #252525, #090909);
+    color: #c58b55;
+}
+
+.project-image.apparel {
+    background: linear-gradient(135deg, #d9d9d9, #777);
+    color: #171717;
+}
+
+.project-image.handyman {
+    background: linear-gradient(135deg, #303030, #111);
+    color: #d5b77b;
+}
+
+.project-image.social {
+    background: linear-gradient(135deg, #c58b55, #332116);
+    color: #fff;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.project-info p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.project-tag {
+    display: inline-block;
+    margin-top: 15px;
+    color: #c58b55;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .portfolio-heading h2 {
+        font-size: 32px;
+    }
+}
+
+        
     </style>
 </head>
 
@@ -124,7 +234,8 @@
     <div class="logo">VIKSE DIGITAL.</div>
     <nav>
         <a href="#home">Home</a>
-        <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
     </nav>
 </header>
 
@@ -140,6 +251,63 @@
     <a href="mailto:vikse.digital.studio@gmail.com" class="button">
         Let's Work Together
     </a>
+</section>
+
+<section class="portfolio" id="portfolio">
+
+    <div class="portfolio-heading">
+        <h2>Our <span>Portfolio</span></h2>
+        <p>Creative work. Professional results. Unique identities.</p>
+    </div>
+
+    <div class="portfolio-grid">
+
+        <div class="project-card">
+            <div class="project-image brand">
+                <h3>VIKSE DIGITAL</h3>
+            </div>
+            <div class="project-info">
+                <h3>Digital Brand Identity</h3>
+                <p>A modern identity concept for a creative digital agency.</p>
+                <span class="project-tag">Branding Concept</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image apparel">
+                <h3>VIKSÉ</h3>
+            </div>
+            <div class="project-info">
+                <h3>Fashion Branding</h3>
+                <p>Minimalist clothing brand identity with a premium aesthetic.</p>
+                <span class="project-tag">Fashion Concept</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image handyman">
+                <h3>VIKSED</h3>
+            </div>
+            <div class="project-info">
+                <h3>Business Branding</h3>
+                <p>Professional visual identity concept for a handyman business.</p>
+                <span class="project-tag">Logo Design Concept</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image social">
+                <h3>CREATIVE<br>STUDIO</h3>
+            </div>
+            <div class="project-info">
+                <h3>Social Media Design</h3>
+                <p>Eye-catching promotional graphics for digital platforms.</p>
+                <span class="project-tag">Social Media Concept</span>
+            </div>
+        </div>
+
+    </div>
+
 </section>
 
 <section class="services" id="services">
