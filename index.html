@@ -9,6 +9,130 @@
 
     <style>
 
+/* PRICING SECTION */
+
+.pricing {
+    padding: 90px 8%;
+    background: #181818;
+}
+
+.pricing-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.pricing-heading h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.pricing-heading h2 span {
+    color: #c58b55;
+}
+
+.pricing-heading p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    align-items: stretch;
+}
+
+.price-card {
+    background: #101010;
+    border: 1px solid #383838;
+    border-radius: 12px;
+    padding: 35px 28px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-7px);
+    border-color: #c58b55;
+}
+
+.price-card.featured {
+    border: 2px solid #c58b55;
+}
+
+.price-card h3 {
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.price {
+    font-size: 45px;
+    font-weight: bold;
+    color: #c58b55;
+    margin: 22px 0 5px;
+}
+
+.price-description {
+    color: #999;
+    font-size: 14px;
+    min-height: 40px;
+}
+
+.price-card ul {
+    list-style: none;
+    margin: 25px 0;
+}
+
+.price-card li {
+    color: #ddd;
+    padding: 11px 0;
+    border-bottom: 1px solid #292929;
+    font-size: 14px;
+}
+
+.price-card li::before {
+    content: "✓";
+    color: #c58b55;
+    margin-right: 10px;
+}
+
+.price-button {
+    display: block;
+    margin-top: auto;
+    padding: 14px;
+    text-align: center;
+    background: #c58b55;
+    color: #101010;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.price-button:hover {
+    background: #e0aa76;
+}
+
+.popular-label {
+    color: #c58b55;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pricing-note {
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+    margin-top: 35px;
+}
+
+
+
+
+        
 .project-image {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -253,6 +377,7 @@
         <a href="#home">Home</a>
     <a href="#portfolio">Portfolio</a>
     <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
     </nav>
 </header>
 
@@ -268,6 +393,78 @@
     <a href="mailto:vikse.digital.studio@gmail.com" class="button">
         Let's Work Together
     </a>
+
+<section class="pricing" id="pricing">
+
+    <div class="pricing-heading">
+        <h2>Simple Pricing. <span>Real Value.</span></h2>
+        <p>Professional design solutions for every stage of your business.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+        <div class="price-card">
+            <h3>STARTER</h3>
+            <div class="price">£49</div>
+            <p class="price-description">Perfect for individuals and small businesses.</p>
+
+            <ul>
+                <li>1 logo design</li>
+                <li>2 initial concepts</li>
+                <li>2 revisions</li>
+                <li>High-resolution files</li>
+            </ul>
+
+            <a href="#contact" class="price-button">Choose Starter</a>
+        </div>
+
+        <div class="price-card featured">
+            <div class="popular-label">MOST POPULAR</div>
+            <h3>PROFESSIONAL</h3>
+            <div class="price">£149</div>
+            <p class="price-description">For businesses ready to grow their brand.</p>
+
+            <ul>
+                <li>Professional logo design</li>
+                <li>Brand colour palette</li>
+                <li>5 social media designs</li>
+                <li>3 revisions</li>
+                <li>Brand files package</li>
+            </ul>
+
+            <a href="#contact" class="price-button">Choose Professional</a>
+        </div>
+
+        <div class="price-card">
+            <h3>PREMIUM</h3>
+            <div class="price">£299</div>
+            <p class="price-description">For businesses wanting a complete identity.</p>
+
+            <ul>
+                <li>Complete brand identity</li>
+                <li>Logo variations</li>
+                <li>Brand guidelines</li>
+                <li>10 social media designs</li>
+                <li>Business card design</li>
+                <li>Priority delivery</li>
+            </ul>
+
+            <a href="#contact" class="price-button">Choose Premium</a>
+        </div>
+
+    </div>
+
+    <p class="pricing-note">
+        All prices are introductory prices. Custom projects available on request.
+    </p>
+
+</section>
+
+
+
+
+
+    
 </section>
 
 <section class="portfolio" id="portfolio">
