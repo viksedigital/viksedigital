@@ -1,16 +1,20 @@
-## Hi there 👋
+# ✨ Welcome to Viksa Digital
 
-<!--
-**viksedigital/viksedigital** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Creative Ideas. Professional Design. Digital Growth.
 
-Here are some ideas to get you started:
+Welcome to **Viksa Digital** – a creative digital brand focused on helping businesses build their online presence and stand out from the competition.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 What We Do
+- 🎨 Logo & Brand Identity Design
+- 📱 Social Media Graphics & Content
+- 💻 Digital Design Solutions
+- 📢 Marketing & Promotional Materials
+- ✨ Creative Branding
+
+### 🎯 Our Mission
+To turn ideas into professional digital experiences, helping businesses grow, attract customers and build recognisable brands.
+
+### 📩 Let's Connect
+Have an idea or project in mind? Let's bring it to life!
+
+**Viksa Digital – Your Vision. Our Creativity.**
