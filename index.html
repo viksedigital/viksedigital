@@ -719,7 +719,9 @@
 
         <div class="contact-email">
             Prefer email?
-            <a href="mailto:YOUR_EXISTING_EMAIL">Contact Us Directly</a>
+            <a href="mailto:vikse.digital.studio@gmail.com">
+    Contact Us Directly
+</a>
         </div>
 
     </div>
@@ -739,7 +741,8 @@ const contactEmail = "YOUR_EXISTING_EMAIL";
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
-
+    
+    const contactEmail = "YOUR_EXISTING_EMAIL";
     const name = document.getElementById("customerName").value;
     const email = document.getElementById("customerEmail").value;
     const service = document.getElementById("service").value;
