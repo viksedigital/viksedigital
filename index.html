@@ -621,6 +621,70 @@ section {
 }
 
 
+/* PREMIUM WEBSITE FOOTER */
+
+.site-footer {
+    background: #080808;
+    border-top: 1px solid #333;
+    padding: 55px 8% 25px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-brand h2 {
+    color: #c58b55;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    color: #999;
+    line-height: 1.7;
+    max-width: 350px;
+}
+
+.footer-column h3 {
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.footer-column a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 13px;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    color: #c58b55;
+}
+
+.footer-bottom {
+    border-top: 1px solid #292929;
+    padding-top: 22px;
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width: 650px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .site-footer {
+        padding: 45px 6% 25px;
+    }
+}
+
         
         
     </style>
@@ -875,9 +939,45 @@ section {
 
 
     
-<footer>
-    © 2026 Vikse Digital. All rights reserved.
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h2>VIKSE DIGITAL.</h2>
+            <p>
+                Creative ideas. Professional design.
+                Digital solutions that help businesses
+                build their identity and grow online.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Get In Touch</h3>
+            <a href="mailto:vikse.digital.studio@gmail.com">
+                Email Us
+            </a>
+            <a href="#contact">Start a Project</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 VIKSE DIGITAL. All rights reserved.
+    </div>
+
 </footer>
+
 
 
 
