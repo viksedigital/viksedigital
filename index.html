@@ -9,6 +9,94 @@
 
     <style>
 
+
+        
+/* FAQ SECTION */
+
+.faq {
+    padding: 90px 8%;
+    background: #181818;
+}
+
+.faq-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.faq-heading h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.faq-heading h2 span {
+    color: #c58b55;
+}
+
+.faq-heading p {
+    color: #999;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.faq-item {
+    background: #101010;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.faq-item summary {
+    padding: 22px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    color: #c58b55;
+    font-size: 24px;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-item summary:hover {
+    color: #c58b55;
+}
+
+.faq-answer {
+    padding: 0 22px 22px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .faq {
+        padding: 60px 5%;
+    }
+
+    .faq-heading h2 {
+        font-size: 32px;
+    }
+}
+
+
 /* HOW IT WORKS SECTION */
 
 .how-it-works {
@@ -865,6 +953,7 @@ section {
     <a href="#services">Services</a>
     <a href="#how-it-works">How It Works</a>
     <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -954,7 +1043,7 @@ section {
 
 
     
-</section>
+
 
 <section class="portfolio" id="portfolio">
 
@@ -1082,6 +1171,82 @@ section {
             <h3>Receive Your Files</h3>
             <p>Once approved, receive your finished design files, ready to use.</p>
         </div>
+
+    </div>
+
+</section>
+
+<section class="faq" id="faq">
+
+    <div class="faq-heading">
+        <h2>Frequently Asked <span>Questions.</span></h2>
+        <p>Everything you need to know before getting started.</p>
+    </div>
+
+    <div class="faq-container">
+
+        <details class="faq-item">
+            <summary>How do I order a service?</summary>
+            <div class="faq-answer">
+                Simply choose a service or package and contact us
+                through our enquiry form. Tell us about your project
+                and we'll discuss the next steps.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How much do your services cost?</summary>
+            <div class="faq-answer">
+                Our introductory packages start from £49.
+                Professional packages are £149 and Premium packages
+                are £299. Custom projects can be quoted separately.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How long does a project take?</summary>
+            <div class="faq-answer">
+                Delivery time depends on the type and complexity
+                of the project. We'll agree an estimated delivery
+                date with you before starting.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Can I request changes to my design?</summary>
+            <div class="faq-answer">
+                Yes! Each package includes a specified number
+                of revisions. Additional changes can be discussed
+                and quoted separately.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>What files will I receive?</summary>
+            <div class="faq-answer">
+                Your final files will be provided in formats
+                appropriate for your project. We can discuss
+                your requirements before work begins.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>Do you work with small businesses?</summary>
+            <div class="faq-answer">
+                Absolutely! We welcome individuals, startups
+                and established businesses looking for professional
+                digital design and branding.
+            </div>
+        </details>
+
+        <details class="faq-item">
+            <summary>How can I contact VIKSE DIGITAL?</summary>
+            <div class="faq-answer">
+                Email us at
+                vikse.digital.studio@gmail.com
+                or use the contact form on our website.
+            </div>
+        </details>
 
     </div>
 
