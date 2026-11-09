@@ -8,6 +8,93 @@
     <meta name="description" content="Vikse Digital helps businesses grow with professional branding, graphic design and digital solutions.">
 
     <style>
+
+/* HOW IT WORKS SECTION */
+
+.how-it-works {
+    padding: 90px 8%;
+    background: #101010;
+}
+
+.process-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.process-heading h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.process-heading h2 span {
+    color: #c58b55;
+}
+
+.process-heading p {
+    color: #999;
+    line-height: 1.7;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.process-card {
+    background: #1b1b1b;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 30px 22px;
+    transition: 0.3s ease;
+}
+
+.process-card:hover {
+    transform: translateY(-6px);
+    border-color: #c58b55;
+}
+
+.process-number {
+    font-size: 34px;
+    font-weight: bold;
+    color: #c58b55;
+    margin-bottom: 20px;
+}
+
+.process-card h3 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.process-card p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .how-it-works {
+        padding: 60px 5%;
+    }
+
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-heading h2 {
+        font-size: 32px;
+    }
+}
+
+
+
+        
 /* FORCE VISIBLE SPACE AFTER HOMEPAGE */
 
 #home {
@@ -776,7 +863,7 @@ section {
     <a href="#portfolio">Portfolio</a>
     <a href="#why-us">Why Choose Us</a>
     <a href="#services">Services</a>
-    
+    <a href="#how-it-works">How It Works</a>
     <a href="#pricing">Pricing</a>
     <a href="#contact">Contact</a>
 </nav>
@@ -957,6 +1044,43 @@ section {
             <div class="why-icon">↗</div>
             <h3>Focused on Growth</h3>
             <p>We help businesses build a stronger visual presence and connect with their customers.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="how-it-works" id="how-it-works">
+
+    <div class="process-heading">
+        <h2>How It <span>Works.</span></h2>
+        <p>Getting started with VIKSE DIGITAL is simple.</p>
+    </div>
+
+    <div class="process-grid">
+
+        <div class="process-card">
+            <div class="process-number">01</div>
+            <h3>Choose Your Service</h3>
+            <p>Explore our services and select the design package that suits your business.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="process-number">02</div>
+            <h3>Tell Us Your Idea</h3>
+            <p>Contact us and share your vision, requirements and ideas for your project.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="process-number">03</div>
+            <h3>Review Your Design</h3>
+            <p>We create your design and share it with you for feedback and agreed revisions.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="process-number">04</div>
+            <h3>Receive Your Files</h3>
+            <p>Once approved, receive your finished design files, ready to use.</p>
         </div>
 
     </div>
