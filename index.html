@@ -685,7 +685,83 @@ section {
     }
 }
 
-        
+   
+/* WHY CHOOSE US SECTION */
+
+.why-us {
+    padding: 85px 8%;
+    background: #181818;
+}
+
+.why-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why-heading h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.why-heading h2 span {
+    color: #c58b55;
+}
+
+.why-heading p {
+    color: #999;
+    line-height: 1.7;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.why-card {
+    background: #101010;
+    padding: 32px 25px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+    border-color: #c58b55;
+}
+
+.why-icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.why-card h3 {
+    color: #c58b55;
+    margin-bottom: 14px;
+    font-size: 19px;
+}
+
+.why-card p {
+    color: #aaa;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .why-us {
+        padding: 60px 5%;
+    }
+
+    .why-heading h2 {
+        font-size: 32px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
+     
         
     </style>
 </head>
@@ -698,7 +774,9 @@ section {
 <nav>
     <a href="#home">Home</a>
     <a href="#portfolio">Portfolio</a>
+    <a href="#why-us">Why Choose Us</a>
     <a href="#services">Services</a>
+    
     <a href="#pricing">Pricing</a>
     <a href="#contact">Contact</a>
 </nav>
@@ -842,6 +920,43 @@ section {
                 <p>Eye-catching promotional graphics for digital platforms.</p>
                 <span class="project-tag">Social Media Concept</span>
             </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why-us" id="why-us">
+
+    <div class="why-heading">
+        <h2>Why Choose <span>VIKSE DIGITAL?</span></h2>
+        <p>Creative thinking. Personal service. Professional results.</p>
+    </div>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <div class="why-icon">✦</div>
+            <h3>Creative Approach</h3>
+            <p>We create unique designs that help your business stand out and build a recognisable identity.</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">◇</div>
+            <h3>Professional Quality</h3>
+            <p>Every project receives attention to detail, thoughtful design and a professional finish.</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">◎</div>
+            <h3>Affordable Pricing</h3>
+            <p>Quality digital design at accessible prices, with packages to suit different business needs.</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">↗</div>
+            <h3>Focused on Growth</h3>
+            <p>We help businesses build a stronger visual presence and connect with their customers.</p>
         </div>
 
     </div>
